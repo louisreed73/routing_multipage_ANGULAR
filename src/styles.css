@@ -1,1 +1,64 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+
+:root {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+
+  font-family: 'Montserrat',
+  sans-serif;
+}
+
+li {
+  list-style: none;
+
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+a:hover {
+  color: inherit;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: normal;
+}
+
+.active {
+  position: relative;
+}
+
+.active::after {
+  display: block;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  height: .3rem;
+  width: 70%;
+  background: red;
+  left: 50%;
+  transform: translateX(-50%)
+    /* border-bottom:2px solid red; */
+}
+
+[class^="main_"] {
+  margin: 3rem;
+  font-size: 1.35rem;
+
+}

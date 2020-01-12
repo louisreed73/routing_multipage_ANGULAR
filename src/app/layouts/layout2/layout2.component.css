@@ -1,0 +1,21 @@
+.main {
+  /* background:gainsboro; */
+  min-height: 40rem;
+  display: flex;
+ flex-flow: column wrap;
+ width: 1140px;
+ max-width: 100%;
+ margin: 0 auto;
+
+}
+
+.page {
+  background: rgb(101, 243, 253);
+  min-height: 65rem;
+  flex: 1 1 100%;
+  padding: 2rem;
+
+
+}
+
+

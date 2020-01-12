@@ -1,0 +1,42 @@
+.main {
+  /* background:gainsboro; */
+  min-height: 40rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-start;
+
+}
+
+.page {
+  background: gainsboro;
+  min-height: 65rem;
+  flex: 1 1 100%;
+  padding: 2rem;
+
+
+}
+
+aside {
+  background: red;
+  min-height: 65rem;
+  flex: 1 1 25%;
+  padding: 2rem;
+  display: none;
+}
+
+
+@media screen and (min-width:678px) {
+
+  .page {
+    flex: 1 1 75%;
+    padding: 2rem;
+  }
+
+  aside {
+    display: block;
+  }
+
+
+
+}
