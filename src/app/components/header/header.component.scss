@@ -1,5 +1,7 @@
+$color:gainsboro;
+
 [header] ul {
-    background:gainsboro;
+    background:$color;
   height: 5rem;
   display: flex;
   justify-content: center;
