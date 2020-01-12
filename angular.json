@@ -5,7 +5,11 @@
   "projects": {
     "ANGULAR19": {
       "projectType": "application",
-      "schematics": {},
+       "schematics": {
+         "@schematics/angular:component": {
+           "style": "scss"
+         }
+       },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -24,7 +28,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.scss"
             ],
             "scripts": []
           },
@@ -38,7 +42,7 @@
               ],
               "optimization": true,
               "outputHashing": "all",
-              "sourceMap": false,
+              "sourceMap": true,
               "extractCss": true,
               "namedChunks": false,
               "aot": true,
